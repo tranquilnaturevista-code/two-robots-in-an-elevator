@@ -10,7 +10,7 @@ Entry for the [make.fun bounty "Two Robots in an Elevator"](https://make.fun/bou
 
 `main.py` writes one original line of awkward robot small talk to `/output/entry.txt`:
 
-> My proximity sensor says we're 0.4 metres apart, which is technically safe and socially illegal.
+> My proximity sensor says we're 0.4 metres apart. Technically safe. Socially, I should be arrested.
 
 The line is written by hand for this bounty. The joke only works
 between two robots stuck in a lift: one of them reads out its
@@ -18,8 +18,9 @@ proximity sensor like a weather report, and the measurement that is
 "technically safe" is also, by human standards, standing far too
 close to a stranger in a metal box. The turn is the clash between
 the machine's precise, reassuring reading and the social verdict —
-safe on paper, a crime in the lift — delivered deadpan, with no
-wasted words.
+safe on paper, an arrestable offence in the lift — delivered deadpan,
+with no wasted words, the punchline landing as a confession in two
+short beats ("Technically safe. Socially, I should be arrested.").
 
 ## Run
 
@@ -27,8 +28,8 @@ wasted words.
 python3 main.py   # writes /output/entry.txt (or $OUTPUT_DIR/entry.txt)
 ```
 
-Deterministic: the same line on every run. The output is 96
-characters of UTF-8 text (96 bytes, plain ASCII), within the 1–200
+Deterministic: the same line on every run. The output is 98
+characters of UTF-8 text (98 bytes, plain ASCII), within the 1–200
 character gate, on a single line.
 
 ## License

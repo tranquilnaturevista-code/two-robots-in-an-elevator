@@ -17,8 +17,8 @@ import os
 import sys
 
 LINE = (
-    "My proximity sensor says we're 0.4 metres apart, "
-    "which is technically safe and socially illegal."
+    "My proximity sensor says we're 0.4 metres apart. "
+    "Technically safe. Socially, I should be arrested."
 )
 
 GATE_MIN = 1
